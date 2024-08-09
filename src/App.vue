@@ -7,6 +7,7 @@ const amount = ref<string>('');
 
 <template>
  <main class="p-4">
+    
     <MoneyInput v-model="amount" />
 
     <p class="mt-4 text-gray-700">Montant enregistré: {{ amount }}</p>
